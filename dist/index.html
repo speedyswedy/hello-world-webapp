@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hello World WebApp</title>
-<link rel="modulepreload" href="/hello-world-webapp-f264e50b51e15c0e.js" crossorigin="anonymous" integrity="sha384-A+vLQV4DwYlJi9Jhtf4h5Lbw6F5ytBbilXgPcKIsDPMJMJ25jMHB/XpUAmf3Xebm"><link rel="preload" href="/hello-world-webapp-f264e50b51e15c0e_bg.wasm" crossorigin="anonymous" integrity="sha384-/asbLVeVWyPxuFUO8UaxDFuleET1AYwTvNcuRfNMZWm8N3A7nZMLNPFMCPRCjcV9" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/hello-world-webapp-fcfb8a6b5e7a6dd2.js" crossorigin="anonymous" integrity="sha384-A+vLQV4DwYlJi9Jhtf4h5Lbw6F5ytBbilXgPcKIsDPMJMJ25jMHB/XpUAmf3Xebm"><link rel="preload" href="/hello-world-webapp-fcfb8a6b5e7a6dd2_bg.wasm" crossorigin="anonymous" integrity="sha384-JNu5mcNcLUlvcUpv5O7n50Hy/ih2b4rTfdbEQlL+AfRuPhYiqwwQ9vmGmdwLTU05" as="fetch" type="application/wasm"></head>
 <body>
 <script type="module">
   import init from "./pkg/hello_world_webapp.js";
@@ -12,8 +12,8 @@
 </script>
 
 <script type="module">
-import init, * as bindings from '/hello-world-webapp-f264e50b51e15c0e.js';
-const wasm = await init({ module_or_path: '/hello-world-webapp-f264e50b51e15c0e_bg.wasm' });
+import init, * as bindings from '/hello-world-webapp-fcfb8a6b5e7a6dd2.js';
+const wasm = await init({ module_or_path: '/hello-world-webapp-fcfb8a6b5e7a6dd2_bg.wasm' });
 
 
 window.wasmBindings = bindings;
